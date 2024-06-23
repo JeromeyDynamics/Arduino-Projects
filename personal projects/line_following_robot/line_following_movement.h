@@ -3,6 +3,6 @@
 #ifndef LINE_FOLLOWING_MOVEMENT_H
 #define LINE_FOLLOWING_MOVEMENT_H
 
-void setUpMotors();
+void setUpMotors(rightMotor, leftMotor);
 
 #endif
