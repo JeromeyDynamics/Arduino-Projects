@@ -30,26 +30,26 @@ void setup() {
 void loop() {
   //Controlling speed (0 = off and 255 = max speed):
   //ENA pin
-  // analogWrite(8, 100);
+   analogWrite(8, 100);
   //ENB pin
-  // analogWrite(9, 200);
+   analogWrite(9, 200);
 
   //Controlling spin direction of motors:
   digitalWrite(DCMotor1Pin1, HIGH);
   digitalWrite(DCMotor1Pin2, LOW);
 
-  // digitalWrite(DCMotor2Pin1, HIGH);
-  // digitalWrite(DCMotor2Pin2, LOW);
+   digitalWrite(DCMotor2Pin1, HIGH);
+   digitalWrite(DCMotor2Pin2, LOW);
 
   // delay(1000);
 
   //switch direction
-  // digitalWrite(DCMotor1Pin1, LOW);
-  // digitalWrite(DCMotor1Pin2, HIGH);
+   digitalWrite(DCMotor1Pin1, LOW);
+   digitalWrite(DCMotor1Pin2, HIGH);
 
-  // digitalWrite(DCMotor2Pin1, LOW);
-  // digitalWrite(DCMotor2Pin2, HIGH);
+   digitalWrite(DCMotor2Pin1, LOW);
+   digitalWrite(DCMotor2Pin2, HIGH);
   
-  // delay(1000);
+   delay(1000);
 
 }
