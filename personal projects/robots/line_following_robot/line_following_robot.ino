@@ -1,4 +1,7 @@
+#include "movement/lineFollowingMovement.h"
 #include "set_up/setUpMotors.h"
+#include "testing/ir_sensing_black/irTest.h"
+#include "testing/motor_movement/motorTest.h"
 
 //L298N IN 1-4
 #define DCMotor1Pin1 7
