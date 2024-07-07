@@ -12,8 +12,10 @@
 #define ENA 8
 #define ENB 9
 
+setUpMotors(DCMotor1Pin1, DCMotor1Pin2, DCMotor2Pin1, DCMotor2Pin2, ENA, ENB);
+
 void setup() {
-  setUpMotors(DCMotor1Pin1, DCMotor1Pin2, DCMotor2Pin1, DCMotor2Pin2, ENA, ENB);
+  
 }
 
 void loop() {
