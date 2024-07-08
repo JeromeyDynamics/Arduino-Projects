@@ -3,7 +3,15 @@
 #ifndef LINEFOLLOWINGMOVEMENT_H
 #define LINEFOLLOWINGMOVEMENT_H
 
-void lineFollowingMovement();
+class lineFollowingMovement {
+
+public:
+	lineFollowingMovement();
+
+
+	void lineFollowingMovement();
+
+};
 
 #endif
 

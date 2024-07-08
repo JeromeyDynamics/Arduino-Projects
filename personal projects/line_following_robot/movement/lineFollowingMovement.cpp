@@ -1,6 +1,7 @@
 #include "lineFollowingMovement.h"
+#include <Arduino.h>
 
-void lineFollowingMovement() {
+void lineFollowingMovement::lineFollowingMovement() {
 
 }
 

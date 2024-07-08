@@ -1,5 +1,5 @@
-#define irLeft 3
-#define irRight 4
+#define irLeft 2
+#define irRight 3
 
 void setup() {
 
