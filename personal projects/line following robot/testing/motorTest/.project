@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>line_following_robot_ino</name>
+	<name>motorTest</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,16 +30,4 @@
 		<nature>io.sloeber.arduinonature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>core/core</name>
-			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/arduino/hardware/avr/1.8.6/cores/arduino</locationURI>
-		</link>
-		<link>
-			<name>core/variant</name>
-			<type>2</type>
-			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/arduino/hardware/avr/1.8.6/variants/yun</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
